@@ -9,7 +9,7 @@ function graph(chart_data, total, first, last) {
         var options = {
             title: 'Generated Views : ' + total + '\n ' + first + ' to ' + last,
             hAxis: { title: 'Date', titleTextStyle: { color: '#333' } },
-            vAxis: { minValue: 0 },
+            vAxis: { minValue: 1000 },
             legend: { position: 'none' }
         };
 
